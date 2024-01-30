@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ### 4.Start the application:
 python app.py
 
-### Usage
+## Usage
 Provide instructions on how to use the application, including any CLI commands or user interface navigation.
 
 #### 1. Basic Setup
@@ -60,24 +60,25 @@ weather-app --city "New York"
 #### 5. Error Handling
 
 Include error handling for things like invalid city names or issues with the API.
-Built With
-OpenWeatherMap API - The web service used for weather data
-[Node.js/Python/Any other frameworks or libraries] - The web framework used
-[Other technologies]
-Contributing
+
+## Built With
+* OpenWeatherMap API - The web service used for weather data
+* python/Any other frameworks or libraries - The web framework used
+  
+## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Versioning
+## Versioning
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-Authors
+## Authors
 Your Name - Initial work - YourUsername
 See also the list of contributors who participated in this project.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
+## Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
 etc
