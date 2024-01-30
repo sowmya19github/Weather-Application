@@ -1,7 +1,8 @@
-WeatherApp
+**WeatherApp**
+
 WeatherApp is a simple, user-friendly weather forecasting application that provides real-time weather information. It utilizes the OpenWeatherMap API to fetch current weather data for locations worldwide.
 
-Features
+##Features
 Real-time weather updates: Get up-to-date weather information for any city globally.
 Forecast data: View weather predictions for the coming days.
 User-friendly interface: Easy-to-use and navigate.
@@ -16,10 +17,10 @@ An IDE (like Visual Studio Code, Eclipse, etc.)
 Node.js (for JavaScript-based projects)
 Python (for Python-based projects)
 Any other specific dependencies your project might have
-Installing
+###Installing
 A step-by-step series of examples that tell you how to get a development environment running:
 
-Clone the repo:
+####Clone the repo:
 bash
 Copy code
 git clone https://github.com/yourusername/WeatherApp.git
@@ -27,7 +28,7 @@ Navigate to the project directory:
 bash
 Copy code
 cd WeatherApp
-Install necessary packages (the command might vary depending on your project setup):
+#####Install necessary packages (the command might vary depending on your project setup):
 Copy code
 npm install
 or
