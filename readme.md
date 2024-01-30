@@ -24,16 +24,16 @@ What things you need to install the software and how to install them:
 ## Installing
 A step-by-step series of examples that tell you how to get a development environment running:
 
-#### 1.Clone the repo:
-git clone https://github.com/yourusername/WeatherApp.git
+#### 1. Clone the repo:
+```git clone https://github.com/yourusername/WeatherApp.git```
 
-#### 2.Navigate to the project directory:
+#### 2. Navigate to the project directory:
 cd WeatherApp
 
-#### 3.Install necessary packages (the command might vary depending on your project setup):
+#### 3. Install necessary packages (the command might vary depending on your project setup):
 pip install -r requirements.txt
 
-#### 4.Start the application:
+#### 4. Start the application:
 python app.py
 
 ## Usage
