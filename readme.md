@@ -10,10 +10,10 @@ WeatherApp is a simple, user-friendly weather forecasting application that provi
 * Location search: Search for any city and get instant weather details.
 
   
-### Getting Started
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
 What things you need to install the software and how to install them:
 
 * An IDE (like Visual Studio Code, Eclipse, etc.)
@@ -21,7 +21,7 @@ What things you need to install the software and how to install them:
 * Open Weather Map
 * HTTP Request
   
-### Installing
+## Installing
 A step-by-step series of examples that tell you how to get a development environment running:
 
 ### 1.Clone the repo:
@@ -37,25 +37,25 @@ python app.py
 ### Usage
 Provide instructions on how to use the application, including any CLI commands or user interface navigation.
 
-### Basic Setup
+* Basic Setup
 
 Choose a programming language and set up a project environment (e.g., Python, Node.js).
 Install necessary libraries for making HTTP requests (e.g., requests in Python, axios in Node.js).
-### Building the CLI
+*  Building the CLI
 
 Create a script that accepts command-line arguments (e.g., city name).
 Use these arguments to build the request URL with your API key.
-### Fetching and Displaying Data
+* Fetching and Displaying Data
 
 Make an HTTP request to the OpenWeatherMap API.
 Parse the response (usually JSON) and extract relevant weather data.
 Display this data in a user-friendly format in the console.
-### Example CLI Command
+* Example CLI Command
 
 arduino
 Copy code
 weather-app --city "New York"
-### Error Handling
+* Error Handling
 
 Include error handling for things like invalid city names or issues with the API.
 Built With
