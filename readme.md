@@ -28,13 +28,13 @@ A step-by-step series of examples that tell you how to get a development environ
 ```git clone https://github.com/yourusername/WeatherApp.git```
 
 #### 2. Navigate to the project directory:
-cd WeatherApp
+```cd WeatherApp
 
 #### 3. Install necessary packages (the command might vary depending on your project setup):
-pip install -r requirements.txt
+```pip install -r requirements.txt
 
 #### 4. Start the application:
-python app.py
+```python app.py
 
 ## Usage
 Provide instructions on how to use the application, including any CLI commands or user interface navigation.
