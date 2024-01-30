@@ -29,33 +29,35 @@ git clone https://github.com/yourusername/WeatherApp.git
 
 ### 2.Navigate to the project directory:
 cd WeatherApp
+
 ### 3.Install necessary packages (the command might vary depending on your project setup):
 pip install -r requirements.txt
+
 ### 4.Start the application:
 python app.py
 
 ### Usage
 Provide instructions on how to use the application, including any CLI commands or user interface navigation.
 
-* Basic Setup
+####1. Basic Setup
 
 Choose a programming language and set up a project environment (e.g., Python, Node.js).
 Install necessary libraries for making HTTP requests (e.g., requests in Python, axios in Node.js).
-*  Building the CLI
+####2.  Building the CLI
 
 Create a script that accepts command-line arguments (e.g., city name).
 Use these arguments to build the request URL with your API key.
-* Fetching and Displaying Data
+####3. Fetching and Displaying Data
 
 Make an HTTP request to the OpenWeatherMap API.
 Parse the response (usually JSON) and extract relevant weather data.
 Display this data in a user-friendly format in the console.
-* Example CLI Command
+####4. Example CLI Command
 
 arduino
 Copy code
 weather-app --city "New York"
-* Error Handling
+####5. Error Handling
 
 Include error handling for things like invalid city names or issues with the API.
 Built With
