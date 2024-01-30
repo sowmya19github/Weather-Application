@@ -1,6 +1,6 @@
 ### WeatherApplication
 
-WeatherApp is a simple, user-friendly weather forecasting application that provides real-time weather information. It utilizes the OpenWeatherMap API to fetch current weather data for locations worldwide.
+* number 1WeatherApp is a simple, user-friendly weather forecasting application that provides real-time weather information. It utilizes the OpenWeatherMap API to fetch current weather data for locations worldwide.
 
 ##Features
 Real-time weather updates: Get up-to-date weather information for any city globally.
