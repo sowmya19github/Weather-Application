@@ -24,16 +24,16 @@ What things you need to install the software and how to install them:
 ## Installing
 A step-by-step series of examples that tell you how to get a development environment running:
 
-### 1.Clone the repo:
+#### 1.Clone the repo:
 git clone https://github.com/yourusername/WeatherApp.git
 
-### 2.Navigate to the project directory:
+#### 2.Navigate to the project directory:
 cd WeatherApp
 
-### 3.Install necessary packages (the command might vary depending on your project setup):
+#### 3.Install necessary packages (the command might vary depending on your project setup):
 pip install -r requirements.txt
 
-### 4.Start the application:
+#### 4.Start the application:
 python app.py
 
 ## Usage
@@ -43,42 +43,47 @@ Provide instructions on how to use the application, including any CLI commands o
 
 Choose a programming language and set up a project environment (e.g., Python, Node.js).
 Install necessary libraries for making HTTP requests (e.g., requests in Python, axios in Node.js).
+
 #### 2.  Building the CLI
 
 Create a script that accepts command-line arguments (e.g., city name).
 Use these arguments to build the request URL with your API key.
+
 #### 3. Fetching and Displaying Data
 
 Make an HTTP request to the OpenWeatherMap API.
 Parse the response (usually JSON) and extract relevant weather data.
 Display this data in a user-friendly format in the console.
+
 #### 4. Example CLI Command
 
-arduino
-Copy code
 weather-app --city "New York"
+
 #### 5. Error Handling
 
 Include error handling for things like invalid city names or issues with the API.
 
 ## Built With
+
 * OpenWeatherMap API - The web service used for weather data
 * python/Any other frameworks or libraries - The web framework used
   
 ## Contributing
+
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
+
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 ## Authors
-Your Name - Initial work - YourUsername
-See also the list of contributors who participated in this project.
+
+Sowmya Cherukupally
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+
+This project incorporates code and/or conceptual input provided by ChatGPT, an AI language model developed by OpenAI
