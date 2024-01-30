@@ -3,19 +3,23 @@
 WeatherApp is a simple, user-friendly weather forecasting application that provides real-time weather information. It utilizes the OpenWeatherMap API to fetch current weather data for locations worldwide.
 
 ### Features
+
 * Real-time weather updates: Get up-to-date weather information for any city globally.
 * Forecast data: View weather predictions for the coming days.
 * User-friendly interface: Easy-to-use and navigate.
 * Location search: Search for any city and get instant weather details.
-Getting Started
+
+  
+### Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+### Prerequisites
 What things you need to install the software and how to install them:
 
-An IDE (like Visual Studio Code, Eclipse, etc.)
-Node.js (for JavaScript-based projects)
-Python (for Python-based projects)
+* An IDE (like Visual Studio Code, Eclipse, etc.)
+* Python (for Python-based projects)
+* Open Weather Map
+* HTTP Request
 Any other specific dependencies your project might have
 ###Installing
 A step-by-step series of examples that tell you how to get a development environment running:
