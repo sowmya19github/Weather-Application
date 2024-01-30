@@ -79,6 +79,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 ## Authors
 
 Sowmya Cherukupally
+cherukupally.sowmya19@gmail.com
 
 ## License
 
