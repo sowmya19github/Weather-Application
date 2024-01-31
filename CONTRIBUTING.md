@@ -1,12 +1,12 @@
-Contributing to WeatherApp
+# Contributing to WeatherApp
 Thank you for your interest in contributing to WeatherApp! This project uses Python and the OpenWeatherMap API to provide weather data and forecasts. We welcome contributions from everyone who is interested in improving and expanding this application.
 
-How to Contribute
+## How to Contribute
 Before you start, please read our Code of Conduct and ensure you agree to abide by it.
 
-Fork the Repository: Start by forking the main repository to your GitHub account.
+### 1. Fork the Repository: Start by forking the main repository to your GitHub account.
 
-Clone Your Fork: Clone your forked repository to your local machine.
+### 2. Clone Your Fork: Clone your forked repository to your local machine.
 
 bash
 Copy code
