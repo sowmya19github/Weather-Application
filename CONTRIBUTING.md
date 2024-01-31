@@ -11,7 +11,7 @@ Start by forking the main repository to your GitHub account.
 Clone your forked repository to your local machine.
 
 ```git clone https://github.com/your-username/WeatherApp.git```
-cd WeatherApp
+```cd WeatherApp```
 
 ### 3.Set Up Your Environment:
 Make sure you have Python installed. Set up a virtual environment and install the required dependencies:
@@ -37,7 +37,7 @@ Ensure your code works as expected and does not break existing functionality. Ad
 ### 7. Commit and Push: 
 Commit your changes with a clear and descriptive commit message. Push your changes to your fork.
 
-```git commit -m "Add a brief and descriptive commit message"```
+```git commit -m ```"Add a brief and descriptive commit message"
 ```git push origin feature/your-feature-name```
 
 ### 8. Create a Pull Request: 
