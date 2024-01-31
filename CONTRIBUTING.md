@@ -17,8 +17,8 @@ cd WeatherApp
 Make sure you have Python installed. Set up a virtual environment and install the required dependencies:
 
 ```python -m venv venv```
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt```
+```source venv/bin/activate```  # On Windows use `venv\Scripts\activate`
+```pip install -r requirements.txt```
 
 ### 4. Create a New Branch: Create a branch for your feature, bugfix, or improvement.
 
@@ -31,14 +31,17 @@ or
 ### 5. Make Your Changes:
 Write your code and make sure it follows the project's coding standards. Remember to comment your code where necessary.
 
-### 6. Test Your Changes: Ensure your code works as expected and does not break existing functionality. Add or update tests as necessary.
+### 6. Test Your Changes: 
+Ensure your code works as expected and does not break existing functionality. Add or update tests as necessary.
 
-### 7. Commit and Push: Commit your changes with a clear and descriptive commit message. Push your changes to your fork.
+### 7. Commit and Push: 
+Commit your changes with a clear and descriptive commit message. Push your changes to your fork.
 
-```git commit -m "Add a brief and descriptive commit message"
-git push origin feature/your-feature-name```
+```git commit -m "Add a brief and descriptive commit message"```
+```git push origin feature/your-feature-name```
 
-### 8. Create a Pull Request: Go to the original repository on GitHub and create a pull request from your branch to the main branch. Please provide a clear description of the changes and reference any related issues.
+### 8. Create a Pull Request: 
+Go to the original repository on GitHub and create a pull request from your branch to the main branch. Please provide a clear description of the changes and reference any related issues.
 
 ## Reporting Issues
 If you find a bug or have a suggestion for improvement, please check if it's already been reported. If not, open a new issue with a clear title and a detailed description. Include any relevant code snippets, screenshots, or error messages.
