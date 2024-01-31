@@ -1,19 +1,41 @@
+from flask import Flask, request, jsonify
+import requests
+
+app = Flask(__name__)
+
+@app.route('/webhook', methods=['POST'])
+def webhook():
+    req = request.get_json(silent=True, force=True)
+    
+    print("Request:")
+    print(json.dumps(req, indent=4))
+
+    res = process_request(req)
+
+    return jsonify(res)
+
+def process_request(req):
+    action = req.get('queryResult').get('action')
+    if action == 'getWeather':
+        return get_weather_response(req)
+    else:
+        return {}
+
+def get_weather_response(req):
+    parameters = req['queryResult']['parameters']
+    city = parameters.get('geo-city')
+    api_key = "YOUR_API_KEY"
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+    
+    response = requests.get(url).json()
+    weather = response['weather'][0]['description']
+    temp = response['main']['temp']
+
+    return {
+        "fulfillmentText": f"The weather in {city} is {weather} with a temperature of {temp}°C.",
+        "source": "weather-app"
+    }
 
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    import requests, json
-    api_key = "82397016eccdb1020f0ec30c8ddd989b"
-    base_url = "http://api.openweathermap.org/data/2.5/weather?"
-    city_name = "Hyderabad"
-    complete_url =  base_url + "appid=" + api_key +"&q=" + city_name
-    response = requests.get(complete_url)
-    x = response.json()
-    print(type(x))
-    print(x['main']['pressure'])
-
-
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    app.run(port=5000, debug=True)
